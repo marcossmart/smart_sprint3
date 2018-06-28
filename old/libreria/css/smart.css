@@ -1,0 +1,147 @@
+
+.fullwidth {
+  width: 100%;
+  display: block;
+  text-align: center; }
+
+.boton-redondeado {
+  padding: 8px 15px 8px 15px;
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: .2s;
+  box-sizing: border-box; }
+
+.boton-redondeado:hover {
+  transition: .3s; }
+
+.r1 {
+  border-color: #0082c5;
+  color: #0082c5; }
+
+.r1:hover {
+  background-color: #0082c5;
+  color: #fff; }
+
+.r2 {
+  border-color: #00a2ae;
+  color: #00a2ae; }
+
+.r2:hover {
+  background-color: #00a2ae;
+  color: #fff; }
+
+.r3 {
+  border-color: #00cba3;
+  color: #00cba3; }
+
+.r3:hover {
+  background-color: #00cba3;
+  color: #fff; }
+
+.r4 {
+  border-color: #00c36c;
+  color: #00c36c; }
+
+.r4:hover {
+  background-color: #00c36c;
+  color: #fff; }
+
+.r5 {
+  border-color: #1e45bb;
+  color: #1e45bb; }
+
+.r5:hover {
+  background-color: #1e45bb;
+  color: #fff; }
+
+.r6 {
+  border-color: #70729b;
+  color: #70729b; }
+
+.r6:hover {
+  background-color: #70729b;
+  color: #fff; }
+
+.r7 {
+  border-color: #4b4b67;
+  color: #4b4b67; }
+
+.r7:hover {
+  background-color: #4b4b67;
+  color: #fff; }
+
+/* Boton redondeado con fondo */
+.boton-redondeado-cf {
+  padding: 8px 15px 8px 15px;
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: .2s;
+  box-sizing: border-box; }
+
+.boton-redondeado-cf:hover {
+  transition: .3s;
+  opacity: 0.8; }
+
+.f1 {
+  background-color: #0082c5;
+  color: #fff;
+  border-color: #0082c5; }
+
+.f2 {
+  background-color: #00a2ae;
+  color: #fff;
+  border-color: #00a2ae; }
+
+.f3 {
+  background-color: #00cba3;
+  color: #fff;
+  border-color: #00cba3; }
+
+.f4 {
+  background-color: #00c36c;
+  color: #fff;
+  border-color: #00c36c; }
+
+.f5 {
+  background-color: #1e45bb;
+  color: #fff;
+  border-color: #1e45bb; }
+
+.f6 {
+  background-color: #70729b;
+  color: #fff;
+  border-color: #70729b; }
+
+.f7 {
+  background-color: #4b4b67;
+  color: #fff;
+  border-color: #4b4b67; }
+
+/* Formularios */
+.formulario1 label span {
+  color: #666; }
+.formulario1 label input, .formulario1 label textarea {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  color: #666;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 300;
+  display: block;
+  width: 100%;
+  margin: 5px 0px 10px 0px;
+  transition: .2s; }
+.formulario1 label input:focus, .formulario1 label textarea:focus {
+  border-color: #0082c5;
+  outline: none;
+  transition: .3s; }
+.formulario1 label textarea {
+  resize: none;
+  min-height: 150px; }
